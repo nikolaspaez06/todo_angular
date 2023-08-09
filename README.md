@@ -1,27 +1,73 @@
-# Todo
+# ToDo-List-Front - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
+En este proyecto se realizo en un ToDo-Api que contiene una base de datos para guardar los pendientes siendo productivo y organizado, puedes visualizar el despliegue 
+<a href="https://to-do-list-front-tau.vercel.app/">aqui</a>
 
-## Development server
+El proyecto fue creado con [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Version Oficial V1.0
+![image]()
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estructura de carpetas
+![image]()
 
-## Build
+## Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Se implemento una `Barra` en su primera version para agregar nuevas tareas en el ToDo-List.
+- Se implemento una `Modal` para agregar diferente datos como: `Nombres de la tareas`,`Descripcion de la tareas`,`Responsable de la tareas`,`Fecha a completar las tareas`
+- Se implemento un `Loader` para mostrar mientras se efectuan los fetching de datos.
 
-## Running unit tests
+## Tecnologias Usadas
+- NodeJs
+- TypeScript
+- Angular CLI
+- Bootstrap
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Referencia Backend
+- Puedes ver la estructura del Back-End clickeando <a href="https://github.com/nikolaspaez06/backend_todo">aqui</a>
+## Instalacion
 
-## Running end-to-end tests
+1 Clona el repositorio en tu maquina local
+```bash
+$ git clone git@github.com:Sebastian-Beltran-rincon-22/FrondTodoList.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2 Navega en el directorio del proyecto 
+```bash
+$ cd angular_todo
+```
 
-## Further help
+3 Puedes cambiar el origen del proyecto con los siguientes comando
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+$ git remote -v
+$ git remote remove origin
+$ git remote add origin <nueva_url_del_repositorio>
+```
+
+4 Instalar las dependecias necesarias
+- Recuerda tener el package.json y el package-lock.json en el root de la carpeta y ejecutas
+
+```bash
+$ npm i
+```
+
+## Uso
+
+1 Inicia la app con 
+```bash
+$ npm run dev
+```
+
+2 Puedes acceder a ella desde el puerto configurado:
+
+http://localhost:4200
+
+3 Prueba las diferentes Funcionalidades de la pagina 
+
+
+
+## Autors
+
+- ["nikolaezpaez06](https://github.com/nikolaspaez06)
