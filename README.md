@@ -7,10 +7,12 @@ El proyecto fue creado con [Angular CLI](https://github.com/angular/angular-cli)
 
 
 ## Version Oficial V1.0
-![image]()
+![image](![Captura de pantalla 2023-08-09 a la(s) 5 18 10 p m](https://github.com/nikolaspaez06/todo_angular/assets/132379296/af23dd7e-75dc-42ad-8e11-f68ae332d13c)
+
 
 ## Estructura de carpetas
-![image]()
+![image](<img width="670" alt="Captura de pantalla 2023-08-09 a la(s) 5 19 32 p m" src="https://github.com/nikolaspaez06/todo_angular/assets/132379296/91f9cd20-66c1-45e0-9bad-785b07932563">
+
 
 ## Funcionalidades
 
